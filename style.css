@@ -79,28 +79,52 @@ section {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-left: 40px;
 }
-
-#botoes img {
-    width: 300px;
-    height: auto;
-}
-#botoes {
+.anuncios {
     display: flex;
     justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
     border: 1px solid black;
     border-radius: 50px;
     margin-top: 70px;
+    width: 300px;
+    padding-bottom: 40px;
+    position: relative;
+    margin-inline: 25px;
 }
 
-#botoes button {
-    width: 300px;
-    height: 50px;
-    padding: 10px;
-    font-size: 23px;
-    font-weight: bold;
-    margin-inline: 15px;
-    border-radius: 62px;
+
+
+.anuncios form {
     display: flex;
-    margin-inline: 15px;
+    flex-direction: column;
+}
+        
+.imagens{
+    width: 300px;
+    border-radius:50px 50px 3px 3px;
+    margin-bottom: auto;
+}
+
+.area_anuncios {
+    width: auto;
+    height: auto;
+    display: flex;
+   flex-direction: row;
+}
+
+.anuncios form input {
+    
+}
+
+#foto_principal {
+   margin-right: 200px;
+   margin-top: 200px;
+}
+
+#foto_principal p {
+    width: 70%;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 80px;
+    
 }
