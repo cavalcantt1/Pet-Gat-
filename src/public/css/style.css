@@ -112,10 +112,6 @@ section {
    flex-direction: row;
 }
 
-.anuncios form input {
-    
-}
-
 #foto_principal {
    margin-right: 200px;
    margin-top: 200px;
@@ -127,4 +123,22 @@ section {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-left: 80px;
     
+}
+
+.boton {
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 15px;
+}
+
+.boton_dois {
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 15px;
+}
+
+button {
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 15px;
 }

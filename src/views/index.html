@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style.css">
     <title>Pet & Gatô</title>
 </head>
 <body>
@@ -12,7 +12,7 @@
     <header>
 
         <div id="topo_do_site">
-            <img src="imagens/logosite.png" alt="logo do site">
+            <img src="/imagens/logosite.png" alt="logo do site">
             <h1>Pet & Gatô</h1>
         </div>
 
@@ -47,29 +47,37 @@
                     <p>Banho e tosa</p>
                     <p>Banho, hidratação, tosa higiênica, tosa de cachorros de diversas raças e outros serviços feitos por profissionais parceiros especialistas no assunto.</p>
                     <button>Agende online</button>
-                    <form id="form_mat">
-                        <input type="text" placeholder="Nome Completo" name="nome">
-                        <input type="text" placeholder="CPF" name="cpf">
-                        <input type="text" placeholder="Data de nascimento">
-                        <input type="email" placeholder="Email principal" name="email">
-                        <input type="tel" placeholder="Telefone ou celular" name="telefone">
-                        <input id="btn_sub_mat" type="submit" value="Agendar">
-                    </form>
+
+                    
+                        <form action="/criar" method="post">
+                            <input class="boton" type="text" placeholder="Nome Completo" name="nome_mm">
+                            <input class="boton" type="text" placeholder="CPF" name="cpf">
+                            <input class="boton" type="email" placeholder="Email principal" name="email">
+                            <input class="boton" type="tel" placeholder="Telefone ou celular" name="telefone">
+                            <input class="boton_dois" id="btn_sub_mat" type="submit" value="">
+                        </form>
+                    
+
+                
                 </div>
+
                 
                     <div class="anuncios">
                         <img class="imagens" src="imagens/imgvetbut2.png" alt="imagem botão dois">
                         <p>A saúde do seu melhor amigo em boas mãos, consultas, exames e vacinas com médicos-veterinários parceiros.</p>
-                        <button>Agende online</button>
+                        <button>Excluir agendamento</button>
 
-                        <form action="">
-                            <input type="text" placeholder="Nome Completo">
-                            <input type="text" placeholder="CPF">
-                            <input type="email" placeholder="E-mail">
-                            <input type="tel" placeholder="Telefone ou Celular">
-                            <input type="datetime" placeholder="Data">
-                            <input id="btn_sub_age" type="submit" value="Agendar">
+                        <form action="excluir" method="delete">
+                            <input class="boton" type="text" placeholder="Nome Completo">
+                            <input class="boton" type="text" placeholder="CPF">
+                            <input class="boton" type="email" placeholder="E-mail">
+                            <input class="boton" type="tel" placeholder="Telefone ou Celular">
+                            <input class="boton" type="datetime" placeholder="Data">
+                            <input class="boton_dois" id="btn_sub_age" type="submit" value="Excluir agenda">
                         </form>
+
+                       
+
                     </div>
             </div>
             
